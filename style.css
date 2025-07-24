@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-principal: #00030C;
+    --branco-principal: #ffffff;
+    --cinza-principal: #C0C0C0;
+    --botao-azul: #167BF7
+    --detalhe-vermelho: #EC2F46;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--background-principal);
+    color: var(--branco-principal);
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
