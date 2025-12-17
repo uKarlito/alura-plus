@@ -100,3 +100,66 @@ body {
 .container__descricao {
     padding: 2em
 }
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 5em 3em;
+    padding: 2em 1em;
+}
+
+.footer__logo {
+    width: 120px;
+    margin-bottom: 8px;
+}
+
+.footer__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.lista__link {
+    margin: 0;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    padding: 4px 8px;
+}
+
+.footer__texto {
+    margin: 1em 0 0 0;
+    color: var(--cinza-principal);
+    font-size: 14px;
+    text-align: center;
+    max-width: 800px;
+}
